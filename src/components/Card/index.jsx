@@ -5,7 +5,9 @@ export default function Card(props) {
   return (
     <div className='card'>
       <img src={image ? image : '/placeholder.jpg'} alt={title} />
-      <h3>{title}</h3>
+      <div className='title'>
+        <h3>{title}</h3>
+      </div>
     </div>
   )
 }

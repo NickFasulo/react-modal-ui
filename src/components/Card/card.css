@@ -1,18 +1,32 @@
 .card {
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.25);
   border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   width: 20rem;
   height: 17rem;
   margin-bottom: 2rem;
-  text-align: center;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .card h3 {
-  margin: 1rem;
+  margin: 0 1rem;
+  line-height: 1.75rem;
 }
 
 .card img {
   border-radius: 5px 5px 0 0;
   height: 12rem;
   width: 20rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 4.5rem;
 }
