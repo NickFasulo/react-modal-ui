@@ -20,7 +20,7 @@ export default function App() {
   }, [])
 
   return (
-    <div className='App'>
+    <div className='main'>
       {recipes.map((recipe, i) => (
         <Card key={i} data={recipe} />
       ))}
