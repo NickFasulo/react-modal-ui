@@ -37,9 +37,9 @@ export default function App() {
   return (
     <div className='main'>
       {recipes.map((recipe, i) => (
-        <Card key={i} data={recipe} onClick={() => handleOpen(recipe.id)} />
+        <Card key={i} data={recipe} onClick={() => handleOpen(recipe)} />
       ))}
-      <Modal isOpen={open} onClose={handleClose}></Modal>
+      {open ? <Modal data={selectedRecipe} onClose={handleClose} /> : null}
     </div>
   )
 }

@@ -1,8 +1,8 @@
 import './modal.css'
 
 export default function Modal(props) {
-  console.log(props.isOpen)
+  const { image, title } = props.data
   return (
-    <div>Modal</div>
+    <div className='modal'>{title}</div>
   )
 }
