@@ -1,7 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Dosis&display=swap');
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
   background-color: whitesmoke;
+}
+
+h3 {
+  font-family: 'Dosis', sans-serif;
+}
+
+p {
+  font-family: 'Bitter', serif;
 }
