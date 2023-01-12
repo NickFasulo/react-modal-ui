@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import Card from '../Card'
 import Modal from '../Modal'
 // import recipeData from '../../data.json'
-import './app.css'
+import './App.css'
 
 export default function App() {
   const [recipes, setRecipes] = useState([])
