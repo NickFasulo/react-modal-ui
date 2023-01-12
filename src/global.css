@@ -14,6 +14,15 @@ span {
   font-family: 'Bitter', serif;
 }
 
+ol {
+  padding: 0;
+  margin-left: 1rem;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
 button {
   cursor: pointer;
   font-family: 'Bitter', sans-serif;
