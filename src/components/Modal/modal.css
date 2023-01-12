@@ -47,3 +47,29 @@
 .modal-summary {
   display: flex;
 }
+
+@media screen and (max-width: 480px) {
+  .modal {
+    width: 95%;
+    height: 85vh;
+  }
+
+  .modal img {
+    height: 12rem;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .modal span {
+    margin: 1rem 0 0;
+    line-height: 1.5rem;
+  }
+
+  .modal h3 {
+    margin-top: 0.5rem;
+  }
+
+  .modal-summary {
+    flex-direction: column;
+  }
+}
