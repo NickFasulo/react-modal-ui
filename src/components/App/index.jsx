@@ -38,8 +38,6 @@ export default function App() {
     setSelectedRecipe({})
   }
 
-  console.log(selectedRecipe)
-
   return (
     <>
       <header>
